@@ -47,8 +47,9 @@ If you prefer setting up services individually:
    ```
 5. **Start Command:**
    ```
-   cd backend && python run.py
+   cd backend && gunicorn -w 4 -b 0.0.0.0:5000 "certivault:create_app()"
    ```
+   *(Uses Gunicorn production WSGI server for reliability and performance)*
 6. **Environment Variables:**
    - `FLASK_ENV` = `production`
    - `FLASK_DEBUG` = `False`

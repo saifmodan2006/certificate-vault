@@ -33,8 +33,9 @@
 services:
   - Backend (Python/Flask)
     - Build: pip install requirements.txt
-    - Start: python run.py
+    - Start: gunicorn -w 4 -b 0.0.0.0:5000 "certivault:create_app()"
     - Port: 5000
+    - WSGI: Production-grade Gunicorn server
     
   - Frontend (Node/Next.js)
     - Build: npm install && npm run build
