@@ -1,7 +1,7 @@
 services:
   - type: web
     name: certivault-backend
-    env: python
+    runtime: python
     plan: free
     buildCommand: pip install -r backend/requirements.txt
     startCommand: gunicorn --chdir backend -w 4 -b 0.0.0.0:$PORT "certivault:create_app()"
@@ -15,12 +15,13 @@ services:
   
   - type: web
     name: certivault-frontend
-    env: node
+    runtime: node
     plan: free
     buildCommand: npm install --prefix frontend && npm run build --prefix frontend
     startCommand: npm run start --prefix frontend
     envVars:
       - key: NEXT_PUBLIC_API_URL
         fromService:
+          type: web
           name: certivault-backend
           property: renderURL
