@@ -1,0 +1,374 @@
+@import "tailwindcss";
+
+:root {
+  /* Primary palette - Modern Blue & Purple gradient */
+  --background: #f8fafb;
+  --foreground: #0f172a;
+  --panel: rgba(255, 255, 255, 0.85);
+  --panel-border: rgba(51, 65, 85, 0.08);
+  --ink: #0f172a;
+  --slate: #64748b;
+  --sun: #6366f1;
+  --cloud: #ffffff;
+
+  /* Secondary colors */
+  --accent-light: #e0e7ff;
+  --accent-dark: #4f46e5;
+  --success: #10b981;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+
+  /* Semantic colors for better contrast */
+  --text-primary: #0f172a;
+  --text-secondary: #64748b;
+  --text-tertiary: #94a3b8;
+  --border-light: #e2e8f0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-panel: var(--panel);
+  --color-panel-border: var(--panel-border);
+  --color-ink: var(--ink);
+  --color-slate: var(--slate);
+  --color-sun: var(--sun);
+  --color-cloud: var(--cloud);
+  --color-accent-light: var(--accent-light);
+  --color-accent-dark: var(--accent-dark);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
+  --font-sans: var(--font-space-grotesk);
+  --font-serif: var(--font-fraunces);
+  --font-mono: var(--font-jetbrains-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background:
+    radial-gradient(circle at top right, rgba(99, 102, 241, 0.08), transparent 40%),
+    radial-gradient(circle at bottom left, rgba(15, 23, 42, 0.04), transparent 40%),
+    var(--background);
+}
+
+body {
+  background:
+    radial-gradient(circle at -20% 50%, rgba(99, 102, 241, 0.06), transparent 50%),
+    radial-gradient(circle at 120% -20%, rgba(79, 70, 229, 0.05), transparent 40%),
+    linear-gradient(135deg, #f8fafb 0%, #f1f5f9 100%);
+  color: var(--foreground);
+  font-family: var(--font-space-grotesk), sans-serif;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+::selection {
+  background: rgba(99, 102, 241, 0.25);
+  color: var(--ink);
+}
+
+@layer components {
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--panel-border);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    box-shadow:
+      0 2px 8px rgba(15, 23, 42, 0.04),
+      0 8px 20px rgba(15, 23, 42, 0.06),
+      inset 0 1px 0 rgba(255, 255, 255, 0.5);
+    padding: 1.5rem;
+    animation: fadeIn 0.6s ease-out forwards;
+    animation-delay: 0.1s;
+    opacity: 0;
+  }
+
+  @media (max-width: 768px) {
+    .panel {
+      padding: 1rem;
+      border-radius: 16px;
+    }
+  }
+
+  .eyebrow {
+    color: var(--slate);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    animation: fadeIn 0.5s ease-out forwards;
+    animation-delay: 0.2s;
+    opacity: 0;
+  }
+
+  .field-label {
+    color: var(--ink);
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0.55rem;
+    animation: fadeIn 0.5s ease-out forwards;
+    opacity: 0;
+  }
+
+  .input,
+  .textarea,
+  .select {
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid var(--border-light);
+    background: rgba(255, 255, 255, 0.9);
+    color: var(--ink);
+    padding: 0.75rem 1rem;
+    font-size: 0.95rem;
+    transition: border-color 160ms ease, box-shadow 160ms ease, background-color 160ms ease, transform 160ms ease;
+    animation: scaleIn 0.4s ease-out;
+  }
+
+  .textarea {
+    min-height: 120px;
+    resize: vertical;
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+  }
+
+  .input:focus,
+  .textarea:focus,
+  .select:focus {
+    border-color: var(--sun);
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 0 0 4px var(--accent-light);
+    outline: none;
+    background: #ffffff;
+  }
+
+  .input:hover,
+  .textarea:hover,
+  .select:hover {
+    border-color: rgba(99, 102, 241, 0.3);
+    background: #fafbff;
+  }
+
+  .button-primary,
+  .button-secondary,
+  .button-ghost {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 0.7rem 1.2rem;
+    border: none;
+    transition:
+      transform 140ms ease,
+      background-color 140ms ease,
+      box-shadow 140ms ease,
+      color 140ms ease;
+    animation: scaleIn 0.5s ease-out;
+    cursor: pointer;
+  }
+
+  .button-primary {
+    background: var(--sun);
+    color: var(--cloud);
+    box-shadow: 0 2px 8px rgba(99, 102, 241, 0.2);
+    font-weight: 700;
+  }
+
+  .button-primary:hover {
+    background: var(--accent-dark);
+    box-shadow: 0 4px 16px rgba(99, 102, 241, 0.3);
+    transform: translateY(-1px);
+  }
+
+  .button-primary:active {
+    transform: translateY(0);
+    box-shadow: 0 1px 4px rgba(99, 102, 241, 0.2);
+  }
+
+  .button-primary:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  .button-secondary {
+    background: rgba(99, 102, 241, 0.08);
+    border: 1px solid rgba(99, 102, 241, 0.2);
+    color: var(--sun);
+  }
+
+  .button-secondary:hover {
+    background: rgba(99, 102, 241, 0.12);
+    border-color: rgba(99, 102, 241, 0.3);
+    transform: translateY(-1px);
+  }
+
+  .button-secondary:active {
+    transform: translateY(0);
+  }
+
+  .button-ghost {
+    background: transparent;
+    border: 1px solid var(--border-light);
+    color: var(--ink);
+  }
+
+  .button-ghost:hover {
+    background: rgba(99, 102, 241, 0.04);
+    border-color: rgba(99, 102, 241, 0.3);
+    transform: translateY(-1px);
+  }
+
+  .button-ghost:active {
+    transform: translateY(0);
+  }
+
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(99, 102, 241, 0.1);
+    color: var(--sun);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    padding: 0.4rem 0.75rem;
+    text-transform: uppercase;
+    animation: scaleIn 0.4s ease-out;
+    border: 1px solid rgba(99, 102, 241, 0.2);
+  }
+
+  /* Loading skeleton animations */
+  .skeleton {
+    background: linear-gradient(
+      90deg,
+      #e2e8f0 0%,
+      #f1f5f9 50%,
+      #e2e8f0 100%
+    );
+    background-size: 200% 100%;
+    animation: loading 2s infinite;
+  }
+
+  @keyframes loading {
+    0% {
+      background-position: 200% 0;
+    }
+    100% {
+      background-position: -200% 0;
+    }
+  }
+
+  /* Stagger animations for cards */
+  .card-container > * {
+    animation: slideInUp 0.5s ease-out both;
+  }
+
+  .card-container > *:nth-child(1) { animation-delay: 0.05s; }
+  .card-container > *:nth-child(2) { animation-delay: 0.1s; }
+  .card-container > *:nth-child(3) { animation-delay: 0.15s; }
+  .card-container > *:nth-child(4) { animation-delay: 0.2s; }
+  .card-container > *:nth-child(5) { animation-delay: 0.25s; }
+  .card-container > *:nth-child(n+6) { animation-delay: 0.3s; }
+
+  /* Page fade in */
+  main {
+    animation: fadeIn 0.7s ease-out;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .panel {
+      border-radius: 16px;
+    }
+
+    .button-primary,
+    .button-secondary,
+    .button-ghost {
+      font-size: 0.85rem;
+      padding: 0.65rem 1rem;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .panel {
+      padding: 1rem;
+    }
+
+    .field-label {
+      font-size: 0.85rem;
+    }
+
+    .button-primary,
+    .button-secondary,
+    .button-ghost {
+      width: 100%;
+    }
+  }
+}
