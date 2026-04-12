@@ -68,6 +68,22 @@ Optional — override defaults by copying example files:
 - `backend/.env.example` → `backend/.env`
 - `frontend/.env.local.example` → `frontend/.env.local`
 
+## 🚀 Deploy to Render (Free)
+
+Want to see your app live? Deploy for free to Render:
+
+1. Connect your GitHub repo to Render
+2. Render auto-detects `render.yaml` and deploys both services
+3. Your app is live in ~5 minutes
+
+👉 **[See Full Render Deployment Guide](./RENDER_DEPLOYMENT.md)**
+
+Services created:
+- **Backend:** `https://certivault-backend.onrender.com`
+- **Frontend:** `https://certivault-frontend.onrender.com`
+
+⚠️ **Note:** Free tier databases reset on redeploy. See guide for production setup.
+
 ## Project Structure
 
 ```
