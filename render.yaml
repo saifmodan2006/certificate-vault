@@ -2,6 +2,7 @@ services:
   - type: web
     name: certivault-backend
     env: python
+    branch: main
     rootDir: backend
     plan: free
     buildCommand: pip install -r requirements.txt
@@ -17,6 +18,7 @@ services:
   - type: web
     name: certivault-frontend
     env: node
+    branch: main
     rootDir: frontend
     plan: free
     buildCommand: npm install && npm run build
