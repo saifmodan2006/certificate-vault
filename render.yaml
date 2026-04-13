@@ -2,9 +2,10 @@ services:
   - type: web
     name: certivault-backend
     env: python
+    rootDir: backend
     plan: free
-    buildCommand: pip install -r backend/requirements.txt
-    startCommand: gunicorn --chdir backend -w 4 -b 0.0.0.0:$PORT "certivault:create_app()"
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn -w 4 -b 0.0.0.0:$PORT "certivault:create_app()"
     envVars:
       - key: FLASK_ENV
         value: production
@@ -16,9 +17,10 @@ services:
   - type: web
     name: certivault-frontend
     env: node
+    rootDir: frontend
     plan: free
-    buildCommand: npm install --prefix frontend && npm run build --prefix frontend
-    startCommand: npm run start --prefix frontend
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
     envVars:
       - key: NEXT_PUBLIC_API_URL
         fromService:
