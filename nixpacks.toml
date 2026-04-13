@@ -1,0 +1,6 @@
+# Railway/Railpack build config
+# Ensures both Python and Node toolchains are available in monorepo builds.
+providers = ["python", "node"]
+
+[phases.setup]
+nixPkgs = ["python311", "nodejs_20"]
