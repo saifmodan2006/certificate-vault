@@ -4,9 +4,10 @@ import os
 from pathlib import Path
 
 from flask import Flask, jsonify, send_from_directory
+from flask_cors import CORS
 
 from .config import Config, DATA_DIR
-from .extensions import cors, db, jwt
+from .extensions import db, jwt
 from .routes import api
 
 
@@ -21,27 +22,15 @@ def create_app() -> Flask:
     db.init_app(app)
     jwt.init_app(app)
 
-    # Allow requests from the configured frontend URL and localhost for dev
-    frontend_url = app.config.get("FRONTEND_URL", "http://localhost:3000")
-    allowed_origins = [
-        frontend_url,
-        "http://localhost:3000",
-        "http://localhost:3001",
-    ]
-    cors.init_app(
-        app,
-        resources={r"/*": {"origins": allowed_origins}},
-        supports_credentials=True,
-    )
+    # Accept requests from any Vercel preview URL + configured frontend
+    CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=False)
 
     app.register_blueprint(api)
 
-    # Serve uploaded files (works locally; on Vercel use external storage)
     @app.route("/uploads/<path:filename>")
     def uploaded_file(filename: str):
         return send_from_directory(app.config["UPLOAD_FOLDER"], filename, as_attachment=False)
 
-    # Health check
     @app.route("/")
     def root():
         return jsonify({"status": "ok", "service": "CertiVault API"})
