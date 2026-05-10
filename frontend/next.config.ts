@@ -7,11 +7,6 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "**" },
     ],
   },
-  experimental: {
-    turbo: {
-      root: __dirname,
-    },
-  },
 };
 
 export default nextConfig;
