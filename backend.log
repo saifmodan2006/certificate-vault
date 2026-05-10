@@ -12,3 +12,697 @@ Press CTRL+C to quit
  * Restarting with watchdog (windowsapi)
  * Debugger is active!
  * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\OneDrive\\Desktop\\certificate platform\\backend\\certivault\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\OneDrive\\Desktop\\certificate platform\\backend\\run.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\django\\apps\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\matplotlib\\_mathtext.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\sklearn\\cluster\\_agglomerative.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\sklearn\\ensemble\\_bagging.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\sklearn\\manifold\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\sklearn\\preprocessing\\_discretization.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\sympy\\functions\\elementary\\integers.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\aiohttp\\streams.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\amqp\\exceptions.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\argon2\\_legacy.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\charset_normalizer\\models.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\curl_cffi\\requests\\impersonate.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\email_validator\\version.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\fastembed\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\flask_mail\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\git\\repo\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\httptools\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\huggingface_hub\\inference\\_generated\\types\\visual_question_answering.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\joblib\\logger.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\langsmith\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\matplotlib\\backends\\registry.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\mpmath\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\openai\\_utils\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\prompt_toolkit\\shortcuts\\choice_input.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\pydantic\\root_model.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\pyparsing\\helpers.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\qdrant_client\\async_qdrant_client.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\scipy\\constants\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\scipy\\linalg\\_decomp_polar.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\scipy\\signal\\_czt.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\sendgrid\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\soupsieve\\util.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\streamlit\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\torch\\functional.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\aimv2\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\bart\\modeling_bart.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\bitnet\\modeling_bitnet.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\canine\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\cohere2_vision\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\data2vec\\configuration_data2vec_text.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\deta\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\retribert\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\dia\\tokenization_dia.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\efficientloftr\\image_processing_efficientloftr.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\flaubert\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\gemma3n\\configuration_gemma3n.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\granite_speech\\processing_granite_speech.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\idefics2\\modeling_idefics2.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\layoutlm\\configuration_layoutlm.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\lilt\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\lxmert\\modeling_tf_lxmert.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\megatron_bert\\modeling_megatron_bert.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\mobilevit\\image_processing_mobilevit.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\nemotron\\modeling_nemotron.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\owlv2\\image_processing_owlv2.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\phi4_multimodal\\modeling_phi4_multimodal.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\qwen2_5_vl\\configuration_qwen2_5_vl.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\regnet\\modeling_flax_regnet.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\sam\\configuration_sam.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\siglip\\configuration_siglip.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\superglue\\modeling_superglue.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\timesfm\\modeling_timesfm.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\vision_text_dual_encoder\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\wav2vec2_bert\\configuration_wav2vec2_bert.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\xlnet\\configuration_xlnet.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\generation\\watermarking.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\pipelines\\document_question_answering.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\trio\\_core\\_generated_instrumentation.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\uvicorn\\config.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\websockets\\http11.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\zmq\\error.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\_pytest\\junitxml.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+127.0.0.1 - - [12/Apr/2026 17:31:09] "GET /uploads/saif/08c5e526d1ac4c44930937928de29575_Saif_Modan.pdf HTTP/1.1" 200 -
+127.0.0.1 - - [12/Apr/2026 17:31:09] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [12/Apr/2026 17:31:22] "GET /profile/saif HTTP/1.1" 200 -
+127.0.0.1 - - [12/Apr/2026 17:31:26] "OPTIONS /certificate/list HTTP/1.1" 200 -
+127.0.0.1 - - [12/Apr/2026 17:31:26] "OPTIONS /certificate/list HTTP/1.1" 200 -
+C:\Users\Sahil\AppData\Roaming\Python\Python313\site-packages\jwt\api_jwt.py:365: InsecureKeyLengthWarning: The HMAC key is 25 bytes long, which is below the minimum recommended length of 32 bytes for SHA256. See RFC 7518 Section 3.2.
+  decoded = self.decode_complete(
+127.0.0.1 - - [12/Apr/2026 17:31:26] "GET /certificate/list HTTP/1.1" 401 -
+127.0.0.1 - - [12/Apr/2026 17:31:27] "GET /certificate/list HTTP/1.1" 401 -
+ * Detected change in 'C:\\Users\\Sahil\\.pyenv\\pyenv-win\\versions\\3.13.7\\Lib\\os.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\OneDrive\\Desktop\\certificate platform\\backend\\run.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\OneDrive\\Desktop\\certificate platform\\backend\\certivault\\models.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\OneDrive\\Desktop\\certificate platform\\backend\\certivault\\extensions.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\sqlalchemy\\orm\\interfaces.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\OneDrive\\Desktop\\certificate platform\\backend\\run.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\OneDrive\\Desktop\\certificate platform\\backend\\certivault\\config.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\dotenv\\cli.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\OneDrive\\Desktop\\certificate platform\\backend\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\OneDrive\\Desktop\\certificate platform\\backend\\certivault\\config.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\OneDrive\\Desktop\\certificate platform\\backend\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\.pyenv\\pyenv-win\\versions\\3.13.7\\Lib\\os.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\django\\apps\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\matplotlib\\_mathtext.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\pandas\\util\\_tester.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\sklearn\\decomposition\\_fastica.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\sklearn\\linear_model\\_base.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\sklearn\\multiclass.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\sympy\\core\\intfunc.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\aiohttp\\payload.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\amqp\\basic_message.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\argon2\\_password_hasher.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\click\\globals.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\cv2\\mat_wrapper\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\starlette\\datastructures.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\flask\\blueprints.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\fsspec\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\h11\\_connection.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\huggingface_hub\\_commit_api.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\iniconfig\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\jupyter_server\\_version.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\limits\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\matplotlib\\tests\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\openai\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\preshed\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\pydantic\\version.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\pygetwindow\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\_pytest\\config\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\redis\\credentials.py', reloading
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\redis\\exceptions.py', reloading
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\redis\\sentinel.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\scipy\\interpolate\\_cubic.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\scipy\\signal\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\scipy\\stats\\_continuous_distns.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\snowflake\\snowpark\\dataframe_ai_functions.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\sqlalchemy\\sql\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\tenacity\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\torch\\_tensor_str.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\aimv2\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\bart\\configuration_bart.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\blenderbot\\modeling_tf_blenderbot.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\chinese_clip\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\conditional_detr\\configuration_conditional_detr.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\data2vec\\modeling_data2vec_text.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\efficientformer\\modeling_efficientformer.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\trajectory_transformer\\configuration_trajectory_transformer.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\dinov3_convnext\\modeling_dinov3_convnext.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\emu3\\modeling_emu3.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\florence2\\processing_florence2.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\got_ocr2\\image_processing_got_ocr2_fast.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\groupvit\\configuration_groupvit.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\instructblip\\modeling_instructblip.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\layoutlmv3\\tokenization_layoutlmv3_fast.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\llava_onevision\\configuration_llava_onevision.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\mask2former\\image_processing_mask2former_fast.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\mobilebert\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\musicgen\\modeling_musicgen.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\opt\\configuration_opt.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\persimmon\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\qwen2_5_omni\\configuration_qwen2_5_omni.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\reformer\\tokenization_reformer.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\sam\\configuration_sam.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\siglip\\image_processing_siglip.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\superpoint\\modeling_superpoint.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\tvp\\configuration_tvp.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\vision_text_dual_encoder\\modeling_flax_vision_text_dual_encoder.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\wav2vec2\\modeling_wav2vec2.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\xlnet\\modeling_tf_xlnet.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\generation\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\pipelines\\depth_estimation.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\trio\\_core\\_generated_io_kqueue.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\user_agents\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\websockets\\http11.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\zmq\\sugar\\socket.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+127.0.0.1 - - [13/Apr/2026 10:22:11] "GET /api/health HTTP/1.1" 404 -
+127.0.0.1 - - [13/Apr/2026 10:22:29] "GET /api/health HTTP/1.1" 404 -
+127.0.0.1 - - [13/Apr/2026 10:46:31] "OPTIONS /certificate/list HTTP/1.1" 200 -
+127.0.0.1 - - [13/Apr/2026 10:46:31] "OPTIONS /certificate/list HTTP/1.1" 200 -
+C:\Users\Sahil\AppData\Roaming\Python\Python313\site-packages\jwt\api_jwt.py:365: InsecureKeyLengthWarning: The HMAC key is 25 bytes long, which is below the minimum recommended length of 32 bytes for SHA256. See RFC 7518 Section 3.2.
+  decoded = self.decode_complete(
+127.0.0.1 - - [13/Apr/2026 10:46:32] "GET /certificate/list HTTP/1.1" 401 -
+127.0.0.1 - - [13/Apr/2026 10:46:32] "GET /certificate/list HTTP/1.1" 401 -
+127.0.0.1 - - [13/Apr/2026 10:46:42] "OPTIONS /api/auth/login HTTP/1.1" 404 -
+127.0.0.1 - - [13/Apr/2026 10:47:56] "OPTIONS /api/auth/login HTTP/1.1" 404 -
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\_pytest\\junitxml.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\pip\\__pip-runner__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\pip\\_vendor\\pyproject_hooks\\_in_process\\_in_process.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\requests\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\.pyenv\\pyenv-win\\versions\\3.13.7\\Lib\\subprocess.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\requests\\models.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\cv2\\config.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\flask\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\Sahil\\AppData\\Roaming\\Python\\Python313\\site-packages\\flask\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+127.0.0.1 - - [13/Apr/2026 11:08:02] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [13/Apr/2026 11:08:04] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [13/Apr/2026 11:08:04] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [13/Apr/2026 11:08:05] "GET / HTTP/1.1" 404 -
+ * Detected change in 'C:\\Users\\Sahil\\OneDrive\\Desktop\\certificate platform\\backend\\certivault\\config.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\OneDrive\\Desktop\\certificate platform\\backend\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894
+ * Detected change in 'C:\\Users\\Sahil\\OneDrive\\Desktop\\certificate platform\\backend\\.venv\\Lib\\site-packages\\colorama\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 745-561-894

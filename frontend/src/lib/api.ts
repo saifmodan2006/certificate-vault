@@ -14,6 +14,10 @@ type LoginPayload = {
   password: string;
 };
 
+type GoogleAuthPayload = {
+  credential: string; // Google ID token
+};
+
 type UpdateUserPayload = {
   name: string;
   username: string;
@@ -66,9 +70,7 @@ async function request<T>(
 export async function registerUser(payload: RegisterPayload) {
   return request<{ access_token: string; user: User }>("/register", {
     method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
+    headers: { "Content-Type": "application/json" },
     body: JSON.stringify(payload),
   });
 }
@@ -76,9 +78,15 @@ export async function registerUser(payload: RegisterPayload) {
 export async function loginUser(payload: LoginPayload) {
   return request<{ access_token: string; user: User }>("/login", {
     method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload),
+  });
+}
+
+export async function googleAuth(payload: GoogleAuthPayload) {
+  return request<{ access_token: string; user: User }>("/auth/google", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
     body: JSON.stringify(payload),
   });
 }
@@ -92,9 +100,7 @@ export async function updateCurrentUser(token: string, payload: UpdateUserPayloa
     "/user/me",
     {
       method: "PUT",
-      headers: {
-        "Content-Type": "application/json",
-      },
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify(payload),
     },
     token,
@@ -108,10 +114,7 @@ export async function getCertificates(token: string) {
 export async function addCertificate(token: string, formData: FormData) {
   return request<{ certificate: Certificate }>(
     "/certificate/add",
-    {
-      method: "POST",
-      body: formData,
-    },
+    { method: "POST", body: formData },
     token,
   );
 }
@@ -119,9 +122,7 @@ export async function addCertificate(token: string, formData: FormData) {
 export async function deleteCertificate(token: string, certificateId: number) {
   return request<{ message: string }>(
     `/certificate/${certificateId}`,
-    {
-      method: "DELETE",
-    },
+    { method: "DELETE" },
     token,
   );
 }
@@ -133,9 +134,7 @@ export async function getPublicPortfolio(username: string) {
 export async function unlockPublicPortfolio(username: string, password: string) {
   return request<PublicPortfolio>(`/profile/${username}/unlock`, {
     method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
+    headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ password }),
   });
 }

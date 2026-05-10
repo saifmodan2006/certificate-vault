@@ -1,5 +1,9 @@
 from __future__ import annotations
 
+import os
+import re
+import secrets
+
 from flask import Blueprint, current_app, jsonify, request
 from flask_jwt_extended import (
     create_access_token,
@@ -128,6 +132,67 @@ def register():
 
     token = create_access_token(identity=str(user.id))
     return jsonify({"access_token": token, "user": _serialize_user(user)}), 201
+
+
+@api.post("/auth/google")
+def google_auth():
+    """Authenticate or register a user via Google OAuth access token."""
+    import urllib.request as _urllib_req
+    import json as _json
+
+    data = request.get_json(force=True)
+    access_token = (data.get("credential") or "").strip()
+    if not access_token:
+        return jsonify({"message": "Google access token is required"}), 400
+
+    # Fetch user info from Google
+    try:
+        req = _urllib_req.Request(
+            "https://www.googleapis.com/oauth2/v3/userinfo",
+            headers={"Authorization": f"Bearer {access_token}"},
+        )
+        with _urllib_req.urlopen(req, timeout=10) as resp:
+            google_user = _json.loads(resp.read().decode())
+    except Exception:
+        return jsonify({"message": "Failed to verify Google token"}), 401
+
+    email = (google_user.get("email") or "").strip().lower()
+    name = (google_user.get("name") or "").strip()
+    picture = (google_user.get("picture") or "").strip()
+    google_sub = google_user.get("sub") or ""
+
+    if not email:
+        return jsonify({"message": "Could not retrieve email from Google"}), 400
+
+    # Find or create user
+    user = User.query.filter_by(email=email).first()
+    if user is None:
+        # Generate a unique username from the email prefix
+        base_username = re.sub(r"[^a-z0-9]", "-", email.split("@")[0].lower()).strip("-")
+        username = base_username
+        counter = 1
+        while User.query.filter_by(username=username).first():
+            username = f"{base_username}-{counter}"
+            counter += 1
+
+        user = User(
+            name=name or email.split("@")[0],
+            username=username,
+            email=email,
+            # Random password hash – Google users won't use password login
+            password_hash=generate_password_hash(secrets.token_hex(32)),
+            profile_image=picture,
+        )
+        db.session.add(user)
+        db.session.commit()
+    else:
+        # Update profile image if not set
+        if not user.profile_image and picture:
+            user.profile_image = picture
+            db.session.commit()
+
+    token = create_access_token(identity=str(user.id))
+    return jsonify({"access_token": token, "user": _serialize_user(user)})
 
 
 @api.post("/login")

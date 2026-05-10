@@ -53,11 +53,17 @@ export function CertificateCard({
           href={certificate.file_url}
           target="_blank"
           rel="noreferrer"
-          className="button-primary text-xs sm:text-sm"
+          className="inline-flex items-center justify-center rounded-lg px-3 py-2 text-xs font-bold leading-none transition-all hover:opacity-90 active:scale-95"
+          style={{ backgroundColor: "#6366f1", color: "#ffffff" }}
         >
           View
         </a>
-        <a href={certificate.file_url} download className="button-secondary text-xs sm:text-sm">
+        <a
+          href={certificate.file_url}
+          download
+          className="inline-flex items-center justify-center rounded-lg px-3 py-2 text-xs font-bold leading-none border transition-all hover:opacity-90 active:scale-95"
+          style={{ backgroundColor: "#eef2ff", color: "#4338ca", borderColor: "#c7d2fe" }}
+        >
           Download
         </a>
         {certificate.credential_url ? (
@@ -65,7 +71,8 @@ export function CertificateCard({
             href={certificate.credential_url}
             target="_blank"
             rel="noreferrer"
-            className="button-ghost text-xs sm:text-sm"
+            className="inline-flex items-center justify-center rounded-lg px-3 py-2 text-xs font-bold leading-none border transition-all hover:opacity-90 active:scale-95"
+            style={{ backgroundColor: "#f8fafc", color: "#334155", borderColor: "#cbd5e1" }}
           >
             Verify
           </a>
@@ -75,7 +82,8 @@ export function CertificateCard({
             type="button"
             onClick={() => onDelete(certificate.id)}
             disabled={busy}
-            className="button-ghost border-red-200 text-red-600 hover:bg-red-50 transition-all disabled:opacity-60 text-xs sm:text-sm"
+            className="inline-flex items-center justify-center rounded-lg px-3 py-2 text-xs font-bold leading-none border transition-all hover:opacity-90 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed"
+            style={{ backgroundColor: "#fff1f2", color: "#dc2626", borderColor: "#fecaca" }}
           >
             {busy ? "Deleting..." : "Delete"}
           </button>

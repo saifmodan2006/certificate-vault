@@ -36,3 +36,6 @@
  GET /dashboard/add 200 in 58ms (next.js: 7ms, application-code: 51ms)
  GET /dashboard 200 in 95ms (next.js: 10ms, application-code: 85ms)
  GET /saif 200 in 3.0s (next.js: 2.7s, application-code: 311ms)
+ GET /saif 200 in 142ms (next.js: 36ms, application-code: 106ms)
+ GET /dashboard 200 in 184ms (next.js: 13ms, application-code: 171ms)
+ GET /dashboard 200 in 597ms (next.js: 170ms, application-code: 428ms)

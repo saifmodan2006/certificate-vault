@@ -75,8 +75,12 @@ export default function DashboardPage() {
               stays ready for applications.
             </p>
           </div>
-          <Link href="/dashboard/add" className="button-primary bg-cloud text-ink hover:bg-[#fff2d8]">
-            Add new certificate
+          <Link
+            href="/dashboard/add"
+            className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-sm font-bold leading-none transition-all hover:opacity-90 active:scale-95 whitespace-nowrap"
+            style={{ backgroundColor: "#ffffff", color: "#1e1b4b" }}
+          >
+            + Add new certificate
           </Link>
         </div>
       </section>
@@ -105,7 +109,8 @@ export default function DashboardPage() {
               href={publicPath}
               target="_blank"
               rel="noreferrer"
-              className="button-secondary"
+              className="inline-flex items-center justify-center rounded-xl px-4 py-2.5 text-sm font-bold leading-none border transition-all hover:opacity-90 active:scale-95 whitespace-nowrap"
+              style={{ backgroundColor: "#eef2ff", color: "#4338ca", borderColor: "#c7d2fe" }}
             >
               Preview public page
             </a>

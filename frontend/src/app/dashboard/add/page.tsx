@@ -197,13 +197,19 @@ export default function AddCertificatePage() {
           {error ? <p className="lg:col-span-2 text-sm font-medium text-rose-700">{error}</p> : null}
 
           <div className="lg:col-span-2 flex flex-col gap-3 sm:flex-row">
-            <button type="submit" disabled={busy} className="button-primary">
+            <button
+              type="submit"
+              disabled={busy}
+              className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-sm font-bold leading-none transition-all hover:opacity-90 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed"
+              style={{ backgroundColor: "#6366f1", color: "#ffffff" }}
+            >
               {busy ? "Uploading..." : "Upload certificate"}
             </button>
             <button
               type="button"
               onClick={() => router.push("/dashboard")}
-              className="button-secondary"
+              className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-sm font-bold leading-none border transition-all hover:opacity-90 active:scale-95"
+              style={{ backgroundColor: "#eef2ff", color: "#4338ca", borderColor: "#c7d2fe" }}
             >
               Cancel
             </button>
